@@ -1,3 +1,16 @@
-<!DOCTYPE html>
-Becky Mendi
-</html>
+---
+layout: default
+title: Rebeca is
+---
+
+<div id="home">
+  <div class="posts">
+    {% for post in site.posts %}
+      <div class="post-link">
+      	<a class="post-title" href="{{ post.url }}">{{ post.title }} 
+      		<span class="date">{{ post.date | date_to_string }}</span>
+      	</a>
+      	<!--<p class="excerpt">{{ post.excerpt }}</p>--></div>
+    {% endfor %}
+  </div>
+</div>
