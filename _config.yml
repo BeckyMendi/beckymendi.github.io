@@ -1,3 +1,4 @@
 name: Rebeca is
 markdown: redcarpet
 pygments: true
+paginate: 1

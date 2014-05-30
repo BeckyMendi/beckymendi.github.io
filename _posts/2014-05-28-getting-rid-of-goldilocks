@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Rid of Goldilocks"
-date:   2014-04-29 19:26:57
+date:   2014-05-28 19:26:57
 categories: jekyll update
 ---
 <p class="post">
@@ -13,10 +13,10 @@ There's this voice inside my head that tells me everything I make has to be "jus
 In small doses, Goldilocks' influence can be positive. She's picky and wants the best solution. However, giving her high standards too much power can lead to disappointment – especially when starting something new.</p>
 
 <p class="post-body">
-For me, that something new is front-end programming. About three months ago, I started taking an accelerated class on HTML, CSS and JavaScript called MakerSquare. The class meets twice a week for three hours and is structured around projects. For example, creating this blog was a project designed to teach us how to use Jekyll, which is a </p>
+For me, that something new is front-end programming. About three months ago, I started taking an in-person course on HTML, CSS and JavaScript called MakerSquare. The class meets twice a week for three hours and is structured around projects. For example, creating this blog was a project designed to teach us how to use Jekyll, a Ruby-based software that turns your HTML files into static sites. Since Jekyll is written in Ruby, getting comfortable with it has been challenging, something Goldie doesn't quite understand.</p>
 
 <p class="post-body">
-Like most people, I wasn't born knowing how to build beautiful websites from scratch. But Goldie doesn't consider that. She wants everything just right, right now. If I could scare her away with three disgruntled grizzlies, I would. Bears, however, are hard to come by in an urband setting, which is why I'm using these three tactics to get rid of Goldie.</p>
+  Jekyll is already driving me a little mad. I sure don't need Goldie's bullying on top of it. Unfortunately, I don't have three disgruntled grizzlies to get rid of her for me. Instead, I'll be using these three tactics to kick Goldie to the curb.</p>
 
 <ul>
 	<li>
@@ -28,7 +28,7 @@ Like most people, I wasn't born knowing how to build beautiful websites from scr
 	<li>
 		<h2>Transparency</h2>
 		<p class="post-body">
-			But what's the point of making art if it stays on my Desktop forever? Well on one hand, no one can criticize my work if they can't actually see it. On the other hand, my work won't improve as much or as fast without feedback. I'm beginning to realize that success isn't singular. There's a reason Oscar winners spend five minutes thanking a long list of people. If I want to get help, I have to be open about what I'm working on. Showing the work is nearly as important as doing it.
+			But what good is art if it stays on my Desktop forever? Well on one hand, no one can criticize my work if they can't actually see it. On the other hand, my work won't improve as much or as fast without feedback. I'm beginning to realize that success isn't singular. (There's a reason Oscar winners spend five minutes thanking a long list of people.) If I want to get help, I have to be open about what I'm working on, because as it turns out, showing the work is nearly as important as doing it.
 
 	<li>
 		<h2>Kindness</h2>

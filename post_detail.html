@@ -1,0 +1,11 @@
+
+
+{% if post.title %}
+    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+{% endif %}
+
+<div class="entry-excerpt">
+
+	{{ content }}
+
+</div>

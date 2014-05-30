@@ -1,5 +1,64 @@
 /*****************************************************************************/
 /*
+/* Blog Post
+/*
+/*****************************************************************************/
+
+/* POST TITLE */
+
+.post {
+	font-family: Georgia;
+	font-size: 1.7em;
+  	font-weight: 300;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+/* INTRO PARAGRAPH OF BLOG POST */
+
+.intro {
+	font-family: "Source Sans Pro", "helvetica", sans-serif;
+	font-size: 1.4em;
+	line-height: 1.5;
+	clear: both;
+}
+
+/* POST BODY TEXT */
+
+.post-body {
+	line-height: 1.7;
+}
+
+h2 {
+	font-size: 1.8em
+}
+
+/*.paragraph-link {
+	font-size: 1.7em;
+}*/
+
+#thanks {
+	font-size: .7em;
+	line-height: 1.7;
+	font-style: italic;	
+	padding: 5%;
+}
+
+.italics {
+	font-style: italic;
+}
+/* POST DATE */
+
+.meta {
+	float: right;
+	font-family: "Source Sans Pro", "helvetica", sans-serif;
+	font-size: 1em;
+	margin-right: 15%;
+	font-style: italic;
+}
+
+/*****************************************************************************/
+/*
 /* Common
 /*
 /*****************************************************************************/
@@ -12,28 +71,43 @@ body {
   text-align: left;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.site {
+	max-width: 62rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6, {
   	font-size: 100%;
  }
 
-h1 { 
-	margin-bottom: 1em;
- }
+h1 {
+	font-family: Georgia;
+	font-size: 6.4em;
+	line-height: 1.3;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+p {
+	font-family: Georgia;
+}
 
 a  { 
 	color: #414141;
 	text-decoration: none;
-	font-size: 1.7em
  }
 
-a:hover   { 
-	color: #f6bd62;
-	background: #414141;
+a:hover  { 
+	color: white;
 }
 
-div {
+/*div {
 	margin: 5%;
-}
+}*/
 
 /*****************************************************************************/
 /*
@@ -43,15 +117,17 @@ div {
 
 header {
 	border-bottom: solid 1px;
+	margin: 1%;
+	padding: 1.5%;
 }
 
-header:after {
+/*header:after {
 	clear: both;
 	content: "";
 	display: block;
 	visibility: hidden;
 	height: 0;
-}
+}*/
 
 /*****************************************************************************/
 /*
@@ -60,48 +136,88 @@ header:after {
 /*****************************************************************************/
 
 .navigation {
-	float: right;
+	padding: 0;
 }
 
-#home {
-	margin-right: 30px;
+.navigation:after {
+	clear: both;
+	content: '';
+	visibility: hidden;
+	display: block;
+	height: 0;
+}
+
+
+#logo {
+	font-family: 'Damion';
+	font-size: 4em;
+	float: left;
 	padding: 7px;
 }
 
 #about {
-	margin-left: 30px;
+	font-size: 1.7em;
+	float: right;
+	margin-right: 30px;
 	padding: 7px;
+	padding-top: 30px;
+	margin-left: 30px;
+}
+
+#about:after {
+	clear: both;
+	content: '';
+	visibility: hidden;
+	display: block;
+	height: 0;
+}
+
+#blog {
+	font-size: 1.7em;
+	float: right;
+	padding: 7px;
+	padding-top: 30px;
 }
 
 /*****************************************************************************/
 /*
-/* Homepage
+/* Home Page
 /*
 /*****************************************************************************/
 
-.site-title {
-	margin: 0 auto;
-	text-align: center;
+.intro {
+	font-family: "Source Sans Pro", "helvetica", sans-serif;
+	font-size: 1.4em;
+	line-height: 1.5;
+	clear: both;
 }
+
+/*****************************************************************************/
+/*
+/* Archive
+/*
+/*****************************************************************************/
 
 .posts {
 	margin: 0 auto;
 	width: 100%;
 }
 
-.post-link {
+.post-title {
+	font-family: Georgia, serif;
+	font-size: 3em;
+}
+
+a.post-title {
 	padding: 7px;
 }
 
-.post-title {
-	font-family: Georgia, serif;
-	font-size: 4em;
-}
 .date {
 	float: left;
-	font-size: .4em;
+	font-size: 1em;
 	width: 100%
 }
+
 
 .excerpt {
 	clear:both;
@@ -132,73 +248,18 @@ li {
 	font-family: "Source Sans Pro", "helvetica", sans-serif;
 	text-align: left;
 	font-size: 6em;
+	line-height: 1.1;
+	padding-bottom: 1.5em;
 }
 
 #amp {
 	color: white;	
 }
 
-/*****************************************************************************/
-/*
-/* Blog Post
-/*
-/*****************************************************************************/
-
-/* POST TITLE */
-
-.post {
-	font-family: Georgia;
-	font-size: 1.7em;
-  	font-weight: 300;
-	margin-left: 15%;
-	margin-right: 15%;
+#asterisk {
+	padding-left: 4%;
 }
 
-h1 {
-	font-family: Georgia;
-	font-size: 7em;
-	line-height: 1.3;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-/* INTRO PARAGRAPH OF BLOG POST */
-
-.intro {
-	font-family: "Source Sans Pro", "helvetica", sans-serif;
-	font-size: 1.5em;
-	line-height: 1.3;
-}
-
-/* POST BODY TEXT */
-
-.post-body {
-	line-height: 1.7;
-}
-
-.paragraph-link {
-	font-size: 1.7em;
-}
-
-#thanks {
-	font-size: .7em;
-	line-height: 1.7;
-	font-style: italic;	
-	padding: 5%;
-}
-
-.italics {
-	font-style: italic;
-}
-/* POST DATE */
-
-.meta {
-	float: right;
-	font-family: "Source Sans Pro", "helvetica", sans-serif;
-	font-size: 1em;
-	margin-right: 15%;
-	font-style: italic;
-}
 
 /*****************************************************************************/
 /*
@@ -210,6 +271,9 @@ h1 {
 .footer {
 	background: #414141;
 	position: fixed;
-	height: 250px;
+	height: 300px;
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
 }
 
